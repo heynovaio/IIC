@@ -1,33 +1,25 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import logo from "../images/iicacademy.jpg"
+import { Navbar, Nav , NavDropdown , Container } from "react-bootstrap"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header className="row">
+
+    <Navbar expand="lg">
+      <Container>
+        <Navbar.Brand href="/"><img src={logo} className="p-2" alt={"IIC Logo"}/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color: "#D9000D"}}/>
+        <Navbar.Collapse id="basic-navbar-nav" className=" justify-content-end">
+          <Nav className="ml-auto">
+            <Nav.Link href="/S8B/program_breakdown"><p className="black_text m-0">Program Breakdown</p></Nav.Link>
+            <Nav.Link href="/S8B"><p className="black_text m-0">Contact Us</p></Nav.Link>
+            <Nav.Link href="/S8B/applyform" className="nav-item margin_web ml-0 ml-lg-5 p-0"><p className="white_text redbtn m-0">Apply Now</p></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   </header>
 )
 

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IIC S8B Program</title>
+  <link rel="Shortcut Icon" href="assets/images/favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/loader.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src= "https://smtpjs.com/v3/smtp.js"></script> 
+   <script src="js/formapplication.js"></script>
+
+</head>
+<body>
+<div class="container-fluid bg-white" style="position: relative;">
+	<header class="row">
+	<div class="col">
+		<nav class="navbar navbar-expand-md mobilenav">
+		  <!-- Brand -->
+		  <a class="navbar-brand logo_class" href="S8BProgram.html">
+		  	<img src="assets/images/iicacademy.jpg" class="p-2">
+		  </a>
+		
+		
+		  <!-- Toggler/collapsibe Button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <i class="fas fa-bars" style="color: #D9000D;"></i>
+			  </button>
+			
+			  <!-- Navbar links -->
+			  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		    <ul class="navbar-nav black_text margin_4 text-right">
+		      <li class="nav-item">
+		        <a class="nav-link black_text" href="program_breakdown.html" target="_blank">Program Breakdown</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link black_text" href="#contactUs">Contact us</a>
+		      </li>
+			  <li class="nav-item mobile_homebtn">
+		        <a class="nav-link black_text" href="S8BProgram.html" target="_blank">Home</a>
+		      </li>
+		      <li class="nav-item mx-4 web_home_btn">
+		        <a style="position: relative; top: 5px;" href="S8BProgram.html" target="_blank"><img src="assets/images/home.png" style="width:25px;"/></a>
+		      </li>
+		    </ul>
+			</div>
+		</nav>
+		</div>
+	</header>
+	<section class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-3 d-flex align-items-center justify-content-center">
+					<img src="assets/images/Group 97_red.png" class="img-fluid mt-3">
+				</div>
+				<div class="col-12 col-sm-7">
+					<div class="mx-auto my-3 py-3 black_text text-center margin_0">
+						<h1 class="text-center applynow">Apply Now</h1>
+						<p class="p-3 margin_0 padding_0">This is the first step in the registration process. We want to hear from you. There is no financial commitment at this point.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-2">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		
+	</section>	
+	<section class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 d-flex align-items-center">
+				<div class="py-4">
+					<h2 class="mb-3 black_text all_main_heads">Course Pre-Requisites</h2>
+					<p class="black_text pr-2">The following skills, education and experience are required for program entry:</p>
+
+					<ul>
+						<li>
+						A high school diploma plus two years of additional education focused on GIS, geography,
+						 physics, mathematics, computer science or IT from a technical college, 
+						 institute or university
+						 </li>
+						<li>
+						English proficiency
+						</li>
+					</ul>
+
+					<p class="black_text pr-2 margin_0">If you are interested in attending this course but do not have the 
+					requirements listed above, please contact our friendly team at 
+					<a href="mailto:nauticalcartographer@iicacademy.com">nauticalcartographer@iicacademy.com </a>and we can discuss how these could be achieved.</p>
+					
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+					<div class="py-4">
+					<img src="assets/images/woman-using-sextant 1.png" class="img-fluid"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="row bg_skyblue">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="mx-auto pt-5 pb-3 black_text text-center">
+						<h2 class="text-center all_main_heads">EXCITED? INTERESTED?</h2>
+						<p class="p-3 margin_0">To get more details on the registration and pricing, please complete the brief form below.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					<div class="px-4 pb-4 padding_0">
+					<h4 class="black_text my-3 form_heads">General</h4>
+					<form id="myForm">
+					  <div class="form-group">
+					    <label for="firstName">First Name*:</label>
+					    <input type="text" class="form-control" placeholder="Enter first name" id="firstName" pattern="[a-zA-Z]*" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="lastName">Last Name*:</label>
+					    <input type="text" class="form-control" placeholder="Enter last name" id="lastName"required>
+					  </div>
+					  <div class="form-group">
+					    <label for="mailingAddress">Mailing Address*:</label>
+					    <textarea class="form-control" id="mailingAddress" required></textarea>
+					  </div>
+					  <div class="form-group">
+					    <label for="emailAddress">Email Address*:</label>
+					    <input type="email" class="form-control" placeholder="Enter email" id="emailAddress" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="phoneNumber">Phone Number*:</label>
+					    <input type="text" class="form-control" placeholder="Enter phone number" id="phoneNumber" required>
+					  </div>
+					</form>
+					<img src="assets/images/map-photo.png" class="img-fluid"/>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+				<div class="px-4 pb-4 padding_0">
+					<h4 class="black_text my-3 form_heads">Education</h4>
+					<form id="myForm2">
+					  <div class="form-group">
+					    <label for="nameofInstitution">Name of Institution*:</label>
+					    <input type="text" class="form-control" placeholder="Enter name of Institution" id="nameofInstitution" required>
+					  </div>
+					  <div class="form-group">
+					    <label>In Progress*:</label>
+					    <div class="form-check">
+						  <label for="progressCheck" class="form-check-label">
+						    <input type="checkbox" id="inprogressYes" class="form-check-input progresscheck" name="progressCheck" value="Yes">Yes
+						  </label>
+						</div>
+						<div class="form-check">
+						  <label for="progressCheck" class="form-check-label">
+						    <input type="checkbox" id="inprogressNo" class="form-check-input progresscheck" name="progressCheck" value="No">No
+						  </label>
+						</div>
+					  </div>
+					  <div class="form-group" id="planned_graduationdiv">
+					    <label for="date">If Yes, planned graduation date*:</label>
+					    <input type="date" class="form-control" id="date" required onkeydown="return false">
+					  </div>
+					  <div class="form-group">
+					    <label for="degree">Degree*:</label>
+					    <input type="text" class="form-control" placeholder="Enter degree" id="degree" required>
+					  </div>
+					  <h4 class="black_text mt-5 mb-3 form_heads">Preferences</h4>
+					  <div class="form-group">
+					    <label>Can you start the program on September, 2022 ?*:</label>
+					    <div class="form-check">
+						  <label class="form-check-label">
+						    <input type="checkbox" class="form-check-input programdate" name="programDate" value="Yes">Yes
+						  </label>
+						</div>
+						<div class="form-check">
+						  <label class="form-check-label">
+						    <input type="checkbox" class="form-check-input programdate" name="programDate" value="No">No
+						  </label>
+						</div>
+					  </div>
+					</form>
+					<button class="redbtn border-0 my-5" type="button" onclick="sendEmail()">Submit Request</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="lodaer_mask" id="loaderMask">
+		<div class="lds-facebook"><div></div><div></div><div></div></div>
+	</div>
+	</section>
+	
+	<footer class="row bg_footer" id="contactUs">
+		<div class="col-12 col-sm-4 mt-4">
+		<div class="px-4 py-1 padding_0">
+			<a class="navbar-brand mb-3 bg-white p-2" href="S8BProgram.html">
+			  	<img src="assets/images/iicacademy.jpg">
+		    </a>
+			  <p class="intro_para pb-2">
+				Do you have questions? Drop us a line at:
+				<a href="mailto:nauticalcartographer@iicacademy.com" class="white_text homenav">nauticalcartographer@iicacademy.com </a>
+			</p>
+		</div>
+		</div>
+		<div class="col-12 col-sm-4 mt-5">
+			<h3 class="white_text m-0 pb-2 px-5 padding_0">Explore</h3>
+			<nav class="navbar px-5 padding_0">
+			  <!-- Links -->
+			  <ul class="navbar-nav contactus">
+			    <li class="nav-item">
+			      <a class="nav-link white_text homenav" href="S8BProgram.html">Home</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link white_text homenav" href="program_breakdown.html" target="_blank">Program Schedule</a>
+			    </li>
+			    
+			  </ul>	
+			</nav>
+		</div>
+		<div class="col-12 col-sm-4 mt-5">
+			<h3 class="white_text m-0 pb-2">Contact us</h3>
+			<form id="contactForm" class="py-3 pr-5 mr-4">
+			  <div class="form-group">
+			    <label for="contactEmail" class="white_text">Your Email</label>
+			    <input type="email" class="form-control" placeholder="Enter email" id="contactEmail">
+			  </div>
+			  <div class="form-group">
+			    <label for="contactMessage" class="white_text">Your Message</label>
+			    <textarea class="form-control" id="contactMessage"></textarea>
+			  </div>  
+			  <button type="button" class="redbtn" onclick="sendMessage()">Send Message</button>
+			</form>
+		</div>
+		<section class="col-12 height_footer">
+		<div class="footer_copyright px-4 py-4">
+			<p class="m-0 p-0 white_text homenav">© Copyright 2021 by <a href="https://www.iictechnologies.com/" target="_blank" class="white_text homenav">IIC TECHNOLOGIES.</a> All Rights Reserved.</p>
+		</div>
+		</section>
+	</footer>
+</div>
+	
+</body>
+</html>

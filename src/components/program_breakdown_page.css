@@ -1,0 +1,127 @@
+.accordion-button:not(.collapsed) .rotate-icon{
+    transform: rotate(180deg);
+}
+.accordion-button:not(.collapsed), .accordion-button:focus{
+	background-color: inherit;
+	box-shadow: none;
+}
+
+.w-80{
+	width: 80%;
+}
+.rotate-icon{
+    float: right;
+    position: relative;
+    top: 6px;
+}
+.pr-schedule{
+    border: none;
+    margin-bottom: 30px;
+}
+.pr-schedule .card-header{
+    padding: 0;
+    margin-bottom: 0 !important;
+    border: none;
+    background: none;
+}
+.pr-schedule .card-header a:hover{
+    text-decoration: none;
+}
+.pr-schedule .card-header h4{
+    padding: 30px;
+}
+.tab_head{
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px !important;
+	line-height: 38px;
+	color: #0D1120;
+}
+@media screen and (max-width: 576px) {
+	.tab_head{
+	font-size: 16px !important;
+	line-height: 24px !important;
+}
+.rotate-icon{
+		top: 2px !important;
+	}
+.pr-schedule .card-header h4 {
+    padding: 12px !important;
+}
+.bg-dark-blue {
+    padding: 12px 0px !important;
+}
+.padding_4{
+	padding: 12px !important;
+}
+}
+.pr-schedule .card-header .bg-blue h4{
+    color: #ffffff;
+}
+.bg-dark-blue{
+    background: #103151;
+    padding: 25px 50px;
+}
+.bg-blue{            
+    background: #2B4F70;
+}
+.pr-nav .nav-link{
+    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    color: #0d1120;
+}
+.pr-nav .nav-item:first-child{
+    margin-right: 5px;
+}
+.pr-nav .nav-link.active, .pr-nav .show>.nav-link {
+    color: #fff;
+    background-color: #103151;
+}
+.nav-pills .nav-item {
+    background: #CAE1F4;
+    border-radius: 5px 5px 0 0;            
+}
+.n_h{
+	width:236px; 
+	height:233px;
+	margin-top:25px;
+	float:right;
+}
+.program_breakdown{
+	font-size:69px;
+	font-weight:bold;
+	font-family: 'Raleway';
+}
+.the_programme{
+	font-size:18px;
+	font-weight:400;
+	color:#0D1120; 
+	margin-top:20px;
+	font-family: 'Mulish';
+}
+.sep_6th{
+	font-weight:800;
+	font-size:22px;
+	color:#D9000D;
+	font-family: 'Mulish';
+}
+.Participants{
+	font-weight:700;
+	font-size:17px;
+}
+.tab_text{
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px !important;
+	line-height: 150%;
+}
+.accordion-button,.accordion-body{
+	padding: 0 0 0 0;
+}
+.accordion-button::after{
+	display: none;
+}

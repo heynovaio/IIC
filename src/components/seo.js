@@ -8,7 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 
 function Seo({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -69,7 +69,12 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+     
+      <script src= "https://smtpjs.com/v3/smtp.js"></script>
+      <script src={withPrefix('/scripts/formapplication.js')} type="text/javascript" />
+
+    </Helmet>
   )
 }
 

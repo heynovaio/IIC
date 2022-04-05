@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IIC S8B Program</title>
+  <link rel="Shortcut Icon" href="assets/images/favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/program_breakdown_page.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src= "https://smtpjs.com/v3/smtp.js"></script> 
+   <script src="js/formapplication.js"></script>
+   
+</head>
+<body>
+<div class="container-fluid bg-white">
+	<header class="row">
+	<div class="col">
+		<nav class="navbar navbar-expand-md mobilenav">
+		  <!-- Brand -->
+		  <a class="navbar-brand logo_class" href="S8BProgram.html">
+		  	<img src="assets/images/iicacademy.jpg" class="p-2">
+		  </a>
+		
+		   <!-- Toggler/collapsibe Button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <i class="fas fa-bars" style="color: #D9000D; "></i>
+			  </button>
+			
+			  <!-- Navbar links -->
+			  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		    <ul class="navbar-nav black_text navutility text-right">
+		      <li class="nav-item">
+		        <a class="nav-link black_text" href="#">Program Breakdown</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link black_text" href="#contactUs">Contact us</a>
+		      </li>
+		      <li class="nav-item margin_web">
+		        <a class="redbtn" href="applyform.html">Apply Now</a>
+		      </li>
+		    </ul>
+			</div>
+		</nav>
+		</div>
+	</header>
+	<section class="row">
+		<div class="container">
+			<div class="row my-3">
+				<div class="col-12 col-sm-7 d-flex align-items-center">
+					<div class="my-3 py-3 black_text">
+						<h1 class="all_main_heads">Program Breakdown</h1>
+						<p class="py-3">The programme is designed to be delivered 
+						online, with the theoretical and practical components 
+						carried out via remote learning and instructor led lectures,
+						 focused on developing a student’s knowledge and skills in the 
+						 production of nautical charts. The programme completes with the 
+						 student’s proficiency being assessed through a Comprehensive 
+						 Cartographic Project.</p>
+						 <h5 class="red_text redfont">Sept. 11<sup>th</sup>, 2022 – Apr. 7<sup>th</sup>, 2023</h5>
+						 <p>Participants will have an elapsed period of 30 weeks to complete the 22 week program</p>
+					</div>
+				</div>
+				
+				<div class="col-12 col-sm-5 d-flex align-items-center justify-content-center">
+					<img src="assets/images/nesw-dark.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>	
+	<section class="row">
+		<div class="container">
+			<div class="row">
+		<div class="col">
+		<ul class="nav nav-pills nav-justified pr-nav mt-2" role="tablist">
+            <li class="nav-item d-flex flex-wrap align-content-stretch"><h4 class="w-100 nav-link active mb-0 px-4 tab_text text-left" data-toggle="pill" data-target="#theory">Theory</h4></li>
+            <li class="nav-item d-flex flex-wrap align-content-stretch"><h4 class="w-100 nav-link mb-0 text-left tab_text px-2" data-toggle="pill" data-target="#practicals">Practicals + Comprehensive Cartographic Project </h4></li>
+        </ul>
+        <div class="tab-content bg-dark-blue pt-0 pb-5 mb-5">
+            <div id="theory" class="container tab-pane active"><br>
+                <p class="text-white my-4 w-80">The IIC Academy has integrated the theoretical component of the program under a Learning Management System platform, which will allow participants to follow the modules and study from the comfort of their Homes or offices only requiring a computer and internet access.</p>
+                <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleOne">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseOne" aria-expanded="true" aria-controls="moduleCollapseOne">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-1</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Foundations of Marine Geospatial Information<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseOne" class="collapse" role="tabpanel" aria-labelledby="moduleOne" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-12 col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the introduction to the program. A brief history of nautical charting. Overview of charting in the world today.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleTwo">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseTwo" aria-expanded="true" aria-controls="moduleCollapseTwo">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-2</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Data Assessment and Compilation<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseTwo" class="collapse" role="tabpanel" aria-labelledby="moduleTwo" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the essential aspects of nautical chart production, with details about the S-57 Object Catalogue, data sources and production tools available in the market, together with an insight on common industry practices when it comes to chart production.</p>  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleThree">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseThree" aria-expanded="true" aria-controls="moduleCollapseThree">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-3</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Production and Validation<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseThree" class="collapse" role="tabpanel" aria-labelledby="moduleThree" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the important aspects of nautical chart production, covering aspects like chart design, quality controls on source data, sounding selection and chart validation.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleFour">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseFour" aria-expanded="true" aria-controls="moduleCollapseFour">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-4</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Marine Environment <i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseFour" class="collapse" role="tabpanel" aria-labelledby="moduleFour" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the elements of Geology, Geophysics, Oceanography, Meterology and Law of the Sea.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleFive">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseFive" aria-expanded="true" aria-controls="moduleCollapseFive">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-5</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Marine Spatial Data Infrastructures<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseFive" class="collapse" role="tabpanel" aria-labelledby="moduleFive" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the concepts, evolution, practical deployments, role of MSDI in marine national and regional development.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="moduleSix">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#moduleCollapseSix" aria-expanded="true" aria-controls="moduleCollapseSix">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">Module-6</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Remote Sensing<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="moduleCollapseSix" class="collapse" role="tabpanel" aria-labelledby="moduleSix" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 padding_4"><p>This module covers the remote sensing concepts, principles, and practice.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+            <div id="practicals" class="container tab-pane fade"><br>
+                <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="practicalOne">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#practicalCollapseOne" aria-expanded="true" aria-controls="practicalCollapseOne">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">3 weeks</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Practicals<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="practicalCollapseOne" class="collapse" role="tabpanel" aria-labelledby="practicalOne" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 mb-5 padding_4"><p>
+										Practicals are the hands on component of the program. You will execute practical tasks and exercises, from chart design to data capture, and finishing with the required chart validation checks. The goal is to put to use all the theory learned through the remote learning period.
+										</p>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pr-schedule">
+                        <div class="card-header" role="tab" id="practicalTwo">
+                            <div data-toggle="collapse" data-parent="#accordionEx" data-target="#practicalCollapseTwo" aria-expanded="true" aria-controls="practicalCollapseTwo">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 bg-blue p-0">
+                                            <h4 class="mb-0 tab_head">4 weeks</h4>
+                                        </div>
+                                        <div class="col-sm-9 p-0">
+                                            <h4 class="mb-0 tab_head">Comprehensive Cartographic Project<i class="fas fa-angle-down rotate-icon"></i></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="practicalCollapseTwo" class="collapse" role="tabpanel" aria-labelledby="practicalTwo" data-parent="#accordionEx">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-3 bg-blue p-0">&nbsp;</div>
+                                    <div class="col-sm-9 padding_0">
+                                        <div class="card-body pt-0 mb-5 padding_4"><p>
+											To complete the program, students will be tasked with a Comprehensive 
+											Cartographic Project, in which they will have to plan and compile a 
+											chart and execute the proper validation checks to guarantee its integrity and usability.
+											</p>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="lodaer_mask" id="loaderMask">
+		<div class="lds-facebook"><div></div><div></div><div></div></div>
+	</div>
+	<footer class="row bg_footer" id="contactUs">
+		<div class="col-12 col-sm-4 mt-4">
+		<div class="px-4 py-1 padding_0">
+			<a class="navbar-brand mb-3 bg-white p-2" href="S8BProgram.html">
+			  	<img src="assets/images/iicacademy.jpg">
+		    </a>
+			  <p class="intro_para pb-2">
+				Do you have questions? Drop us a line at:
+				<a href="mailto:nauticalcartographer@iicacademy.com" class="white_text homenav">nauticalcartographer@iicacademy.com </a>
+			</p>
+		</div>
+		</div>
+		<div class="col-12 col-sm-4 mt-5">
+			<h3 class="white_text m-0 pb-2 px-5 padding_0">Explore</h3>
+			<nav class="navbar px-5 padding_0">
+			  <!-- Links -->
+			  <ul class="navbar-nav contactus">
+			    <li class="nav-item">
+			      <a class="nav-link white_text homenav" href="S8BProgram.html">Home</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link white_text homenav" href="#">Program Schedule</a>
+			    </li>
+			    
+			  </ul>	
+			</nav>
+		</div>
+		<div class="col-12 col-sm-4 mt-5">
+			<h3 class="white_text m-0 pb-2">Contact us</h3>
+			<form id="contactForm" class="py-3 pr-5 mr-4">
+			  <div class="form-group">
+			    <label for="contactEmail" class="white_text">Your Email</label>
+			    <input type="email" class="form-control" placeholder="Enter email" id="contactEmail">
+			  </div>
+			  <div class="form-group">
+			    <label for="contactMessage" class="white_text">Your Message</label>
+			    <textarea class="form-control" id="contactMessage"></textarea>
+			  </div>  
+			  <button type="button" class="redbtn" onclick="sendMessage()">Send Message</button>
+			</form>
+		</div>
+		<section class="col-12 height_footer">
+		<div class="footer_copyright px-4 py-4">
+			<p class="m-0 p-0 white_text homenav">© Copyright 2021 by <a href="https://www.iictechnologies.com/" target="_blank" class="white_text homenav">IIC TECHNOLOGIES.</a> All Rights Reserved.</p>
+		</div>
+		</section>
+	</footer>
+</div>
+</body>
+</html>
