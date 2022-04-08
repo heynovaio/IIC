@@ -13,7 +13,7 @@ import "./main.css"
 import "./css/bootstrap.min.css"
 import "./css/fontawesome.min.css"
 import "./css/all.min.css"
-import logo from "../images/iic-tech-white-red.png"
+import logo from "../images/IICAcademy 2.png"
 import Sextant from "../images/sextant 1.png"
 const Layout = ({ children }) => {
   
@@ -51,7 +51,7 @@ const Layout = ({ children }) => {
                 </p>
               </div>
               <div className="col-12 col-md-6 mb-4">
-                <p className="m-0 intro_para font-weight-bold">For job opportunities and career with us</p>
+                <p className="m-0 intro_para font-weight-bold">For job opportunities of a career with us</p>
                 <p className="m-0 intro_para font-weight-normal">E-mail: <a href="mailto:nauticalcartographer@iicacademy.com" className="white_text homenav font-weight-light">careers@iicacademy.com </a>
                 </p>
               </div>
