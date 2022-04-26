@@ -15,7 +15,7 @@ const IndexPage = () => (
       <div className="row">
         <div className="row">
           <div className="navbar-brand logo_className" >
-            <StaticImage src="../images/IICAcademy 2.png" className="" alt={"IIC Logo"} layout="constrained"/>
+            <StaticImage src="../images/IICAcademy-2.png" srcset="../images/IICAcademy-2@2x.png 2x" className="" alt={"IIC Logo"} layout="constrained"/>
           </div>
         </div>
         <div className="row p-0">
@@ -27,7 +27,7 @@ const IndexPage = () => (
               <p className="intro_para pb-2">
                 IIC Academy is the training arm of IIC Technologies, which brings together over two decades of global expertise in geospatial projects and services.
               </p>
-    
+              <div className="mt-4 mb-2"><a href="mailto:" target="_blank" rel="noreferrer" className="redbtn_see">Contact Us</a></div>
             </div>
           </div>
           <div className="col-12 col-md-6 py-0 px-4">
@@ -42,7 +42,7 @@ const IndexPage = () => (
     <section className="row mb-5 pb-5">
       <div className="container">
         <div className="row pt-4 justify-content-center">
-          <div className="col-12 col-md-8 d-flex align-items-center">
+          <div className="col-12 col-md-6 d-flex align-items-center">
             <div className="py-4">
               <h2 className="mb-3 black_text font-weight-bold text-center">Current Programs</h2>
               <p className="black_text text-center"> The Academy’s industry-focused programs are flexible, customizable and range 
@@ -50,7 +50,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="row py-4 justify-content-between">
+        <div className="row py-4 justify-content-around">
           <div className="col-12 col-lg-5 d-flex align-items-center bg_navy rounded mb-4">
             <div className="px-4 py-5 col-12">
               <div className="mb-4 w-100 row-4" style={{height: '350px'}}>
@@ -58,9 +58,14 @@ const IndexPage = () => (
               </div>
               <h2 className="mb-3 white_text ">S-5B Hydrographic Surveying Program </h2>
               <p className="white_text pr-2">
-               The purpose of the IIC S-8 Category B program is to prepare candidates with the theoretical and practical competencies necessary to effectively carry out the planning and implementation of nautical ...
+               The purpose of IIC Academy’s S-5 Category
+B program is to prepare candidates with
+the theoretical and practical competencies
+necessary to carry out the planning and
+implementation of hydrographic surveys
+effectively.
               </p>
-              <div className="mt-4 mb-2"><a href="../iicacademy/S5BProgram.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
+              <div className="mt-4 mb-2"><a href="../S5B/overview.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
 
             </div>
             <div className="position-absolute bg_lightblue px-3 py-2 " style={{right:"0",  top:"300px"}}><h4 className="white_text m-0">Commencing Sept. 6, 2022</h4></div>
@@ -72,9 +77,9 @@ const IndexPage = () => (
               </div>
               <h2 className="mb-3 white_text">S-8B Marine Geospatial Information Program</h2>
               <p className="white_text pr-2">
-                The purpose of the IIC S-8 Category B program is to prepare candidates with the theoretical and practical competencies necessary to effectively carry out the planning and implementation of nautical ...
+                The purpose of the IIC S-8 Category B program is to prepare candidates with the theoretical and practical competencies necessary to effectively carry out the planning and implementation of nautical chart production.
               </p>
-              <div className="mt-4 mb-2"><a href="../S8B/S8BProgram.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
+              <div className="mt-4 mb-2"><a href="../S8B/overview.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
             </div>
             <div className="position-absolute bg_lightblue px-3 py-2 " style={{right:"0",  top:"300px"}}><h4 className="white_text m-0">Commencing Sept. 12, 2022</h4></div>
           </div>    

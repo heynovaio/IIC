@@ -1,92 +1,11 @@
 /* Typography code starts here */
-/* vietnamese */
-@font-face {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aivG4w-.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8amvG4w-.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aevGw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/Raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url(./assets/fonts/Raleway-Regular.ttf);
-}
-@font-face {
-  font-family: 'Mulish', sans-serif;
-  src: url(./assets/fonts/Mulish-Regular.ttf);
-}
 html {
   scroll-behavior: smooth;
   overflow: auto;
 }
 body{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	background: #E5E5E5;
-
 }
 .mobile_homebtn{
 		display: none;
@@ -206,25 +125,23 @@ body{
 		position: static !important;
 	}
 }
-.height_footer{
-		height: 40px;
-	}
+
 h1,h2,h3,h4,h5{
-	font-family: Raleway !important;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 109%;
 	letter-spacing: 0.02em;
 }
 p,a,label{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 18px;
 	line-height: 28px;
 }
 h2{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 39px;
@@ -234,7 +151,7 @@ h3{
 	font-size: 30px;
 }
 h4{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
@@ -242,7 +159,7 @@ h4{
 	color: #103151;
 }
 h1{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 53px;
@@ -253,8 +170,12 @@ a:hover{
 	color: #0D1120;
 	
 }
+footer#contactUs a:hover {
+	color:#D9000D;
+	text-decoration: underline;
+}
 .form_heads{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 31px !important;
@@ -263,7 +184,7 @@ a:hover{
 	color: #0D1120;
 }
 .redfont{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 22px;
@@ -272,6 +193,13 @@ a:hover{
 }
 .homenav:hover{
 	color: #FFFFFF;
+}
+header li.nav-item {
+  padding: 0 15px;
+
+}
+header li.nav-item a {
+	font-weight: normal;
 }
 /* Typography code ends here */
 /* Header section code starts here */
@@ -290,7 +218,7 @@ a:hover{
 	align-content: center;
 }
 .intro_heading{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 52px;
@@ -299,12 +227,15 @@ a:hover{
 	color: #FFFFFF;
 }
 .intro_para{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 28px;
 	color: #FFFFFF;
+}
+footer .intro_para a {
+	color: #D9000D;
 }
 .redbtn{
 	background: #D9000D;
@@ -315,8 +246,8 @@ a:hover{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 11px 15px;
-	font-family: Mulish;
+	padding: 9px 15px 15px;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -324,8 +255,12 @@ a:hover{
 	outline: none;
     border: none;
 }
+.redbtn_see:hover {
+	text-decoration: none;
+  background: #0d1120;
+}
 .compass_bottom{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 16px;
@@ -334,7 +269,7 @@ a:hover{
 	display: block;
 }
 .compass_bottom>p{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 16px;
@@ -343,7 +278,7 @@ a:hover{
 	text-transform: uppercase;
 }
 .applynow{
-	font-family: Raleway;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 69px;
@@ -360,9 +295,6 @@ a:hover{
 .black_text{
 	color: #0D1120;
 }
-.bg_footer{
-	background: #0D1120;
-}
 .bg_blue{
 	background: #2B4F70;
 }
@@ -370,15 +302,12 @@ a:hover{
 	background: #CAE1F4;
 }
 .footer_copyright{
-	font-family: Mulish;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 150%;
 	color: #FFFFFF;
-	width:50%; 
-	position: relative;
-	bottom: 45px;
 }
 .footer_copyright>p,.footer_copyright>p>a{
 	font-size: 14px;
@@ -388,20 +317,38 @@ a:hover{
 	box-sizing: border-box;
 	border-radius: 5px;
 	color: #FFFFFF;
-	padding: 11px 15px;
-	font-family: Mulish;
+	padding: 9px 15px 15px;
+	font-family: sofia-pro, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 28px;
 }
+.redbtn_see:hover {
+	text-decoration: none;
+  background: #0d1120;
+  color: #fff;
+}
 .bg_img{
 	background-image: url("../assets/images/Rectangle 1.png");
 	background-repeat: no-repeat;
 	background-size: auto;
-    background-position: bottom;
+    background-position: bottom right;
 }
+.bg_footer{
+	background: #0D1120;
+	position: relative;
+	padding: 20px 0;
+}
+
 .contactus>li>a{
 	font-size: 14px;
+}
+@media screen and (min-width: 576px) {
+	.footerImg {
+		position: absolute;
+		bottom: 60px;
+		right: 60px;
+	}
 }
 /* Header section code ends here */
