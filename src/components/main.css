@@ -9,6 +9,29 @@ body{
 	background: #E5E5E5;
 	overflow: auto;
 }
+
+body nav.primary {
+ 	display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  padding: 0px 15px 0;
+  align-items: center;
+}
+nav a {
+  color: #0e1120;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 6px;
+  padding-top: 20px;
+}
 .mobile_homebtn{
 		display: none;
 	}
@@ -201,7 +224,8 @@ a:hover{
 /* Header section code starts here */
 
 .navbar-brand.logo_className {
-	padding-top: 20px;
+	padding-top: 16px;
+	padding-bottom: 17px;
 }
 .bg_banner_sec{
 	background-image: url(../images/home-banner-bg.svg);
@@ -318,6 +342,9 @@ div.program_intro {
 }
 .bg_skyblue{
 	background: #CAE1F4;
+}
+footer h2 {
+	color:  #fff;
 }
 .footer_copyright{
 	font-family: sofia-pro, sans-serif;

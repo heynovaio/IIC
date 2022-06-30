@@ -8,16 +8,26 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+
+    <header>
+      <nav className="primary">
+        <div className="navbar-brand logo_className" >
+          <StaticImage src="../images/IICAcademy-3.png" srcset="../images/IICAcademy-3@2x.png 2x" className="" alt={"IIC Logo"} layout="constrained"/>
+        </div>
+        <ul>
+        <li><a href="../S5B/overview.html" className="">S-5B Hydrographic Surveying</a></li>
+        <li><a href="../S8B/overview.html" className="">S-8B Marine Geospatial Information</a></li>
+        
+        </ul>
+      </nav>
+    </header>
+
     <div className="bg_banner_sec_2">
     
     <section className="container">
 
       <div className="row">
-        <div className="row">
-          <div className="navbar-brand logo_className" >
-            <StaticImage src="../images/IICAcademy-2.png" srcset="../images/IICAcademy-2@2x.png 2x" className="" alt={"IIC Logo"} layout="constrained"/>
-          </div>
-        </div>
+
         <div className="row p-0">
           <div className="col-12 col-md-6 py-0 px-4">
             <div className="intro py-5 my-0 my-md-5 margin_0">
@@ -27,7 +37,7 @@ const IndexPage = () => (
               <p className="intro_para pb-2">
                 IIC Academy is the training arm of IIC Technologies, which brings together over two decades of global expertise in geospatial projects and services.
               </p>
-              <div className="mt-4 mb-2"><a href="mailto:" target="_blank" rel="noreferrer" className="redbtn_see">Contact Us</a></div>
+              <div className="mt-4 mb-2"><a href="#contactUs" className="redbtn_see">Contact Us</a></div>
             </div>
           </div>
           <div className="col-12 col-md-6 py-0 px-4">
@@ -65,7 +75,7 @@ necessary to carry out the planning and
 implementation of hydrographic surveys
 effectively.
               </p>
-              <div className="mt-4 mb-2"><a href="../S5B/overview.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
+              <div className="mt-4 mb-2"><a href="../S5B/overview.html" className="redbtn_see">Learn More</a></div>
 
             </div>
             <div className="position-absolute bg_lightblue px-3 py-2 " style={{right:"0",  top:"300px"}}><h4 className="white_text m-0">Commencing Sept. 6, 2022</h4></div>
@@ -79,7 +89,7 @@ effectively.
               <p className="white_text pr-2">
                 The purpose of the IIC S-8 Category B program is to prepare candidates with the theoretical and practical competencies necessary to effectively carry out the planning and implementation of nautical chart production.
               </p>
-              <div className="mt-4 mb-2"><a href="../S8B/overview.html" target="_blank" rel="noreferrer" className="redbtn_see">Learn More</a></div>
+              <div className="mt-4 mb-2"><a href="../S8B/overview.html" className="redbtn_see">Learn More</a></div>
             </div>
             <div className="position-absolute bg_lightblue px-3 py-2 " style={{right:"0",  top:"300px"}}><h4 className="white_text m-0">Commencing Sept. 12, 2022</h4></div>
           </div>    

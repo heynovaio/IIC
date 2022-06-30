@@ -34,17 +34,17 @@ const Layout = ({ children }) => {
             </div>
           </div>
           <div className="col-12 col-sm-4 mt-2">
-            <div className="intro py-4 m-auto">
-              <img className="m-auto" src={Sextant} alt={""} />
+            <div className="intro py-4 px-4 py-1">
+              <img className="px-4" src={Sextant} role="presentation" alt={""} />
             </div>
           </div>
           <div className="col-12 col-sm-8 my-2">
 
             <p className="intro_para pb-4">
-              Do you have questions?<br/>
-              Email Us
+              <h2 className="pb-2">Do you have questions? <br/> Email Us: </h2>
             </p>
             <div className="row mb-5">
+
               <div className="col-12 col-md-6 mb-4">
                 <p className="m-0 intro_para font-weight-bold">General information</p>
                 <p className="m-0 intro_para font-weight-normal">E-mail: <a href="mailto:nauticalcartographer@iicacademy.com" className="white_text homenav font-weight-light">coordinator@iicacademy.com </a>
